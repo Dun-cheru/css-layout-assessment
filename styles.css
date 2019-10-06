@@ -8,6 +8,7 @@ body {
 img {
     max-width: 100%;
     display: block;
+    
 }
 
 .logo {
@@ -21,6 +22,7 @@ img {
     margin: 0 auto;
     padding: 0 20px;
     max-width: 980px;
+    display:flex;
 }
 
 nav {
@@ -32,6 +34,10 @@ nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    display:grid;
+    grid-gap:2px;
+    padding:0px;
+    grid-template-columns: repeat(5, 1fr);
 }
 
 nav a {
@@ -44,8 +50,13 @@ nav a {
     list-style: none;
     margin: 0;
     padding: 0;
+    display:grid;
+    grid-template-columns:auto auto;
 }
 
 .feature {
     width: 200px;
+    float: left;
+    padding-right:1em;
 }
+
